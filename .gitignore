@@ -1,0 +1,44 @@
+# ======================================================================
+# FILE: .gitignore
+# Chuẩn vệ sinh mã nguồn dự án Đồ án Lập trình mạng - Nhóm 14
+# Tuân thủ Mục 4: Tiêu Chuẩn Commit Mã Nguồn (QUY TRINH THUC HIEN TREN GIT)
+# ======================================================================
+
+# Thư mục bytecode biên dịch
+bin/
+build/
+out/
+target/
+*.class
+
+# Tệp lưu trữ và đóng gói nhị phân lớn
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Môi trường kiểm thử và dữ liệu kho thử nghiệm cục bộ
+build_test_env/
+server_storage/
+client_storage_*/
+*.tmp
+*.part
+*.atomic.tmp
+
+# Cấu hình IDE cá nhân (VS Code, IntelliJ, Eclipse, NetBeans)
+.vscode/
+.idea/
+*.iml
+.nb-gradle/
+nbproject/private/
+.classpath
+.project
+.settings/
+
+# Nhật ký hệ thống và tệp tạm OS
+*.log
+Thumbs.db
+Desktop.ini
+.DS_Store
